@@ -1,5 +1,4 @@
 def call(fileName){
-  getShellScript('test')
-  
-  return script
+  def test = getShellScript('test.sh')
+  sh(test)
 }
