@@ -1,2 +1,2 @@
-export HELLO=hey
-echo Hello ${HELLO}
+export HELLO=siva
+echo "Hello ${HELLO}"
